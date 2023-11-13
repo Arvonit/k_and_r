@@ -35,8 +35,7 @@ int main(void)
 
 int get_line_length(char line[], int max_line_length)
 {
-    int length;
-    int character;
+    int length, character;
 
     // Copy every character of the current line into `line`
     for (length = 0;
